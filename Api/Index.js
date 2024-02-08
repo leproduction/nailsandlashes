@@ -1,13 +1,12 @@
-
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
-const RegisterModel = require('./models/Register')
+const RegisterModel = require('./Register.js')
 
 const app = express()
 app.use(cors(
     {
-        origin: ["https://new-personal-portfolio-beta.vercel.app/"],
+        origin: ["https://nailsandlashes.vercel.app/"],
         methods: ["POST", "GET"],
         credentials: true
     }
@@ -18,16 +17,16 @@ mongoose.connect('mongodb+srv://portfolio:port@portfolio.rsdq3hc.mongodb.net/?re
 
 
 app.get("/", (req, res) => {
-    res.json("Hello");
+    res.json("Information");
 })
-app.post('/submitinformation', (req, res) => {
-    const {name, email, password} = req.body;
+app.post('/submit', (req, res) => {
+    const {name, email, tel} = req.body;
     RegisterModel.findOne({email: email})
     .then(user => {
         if(user) {
-            res.json("Already have an account")
+            res.json("Already submitted")
         } else {
-            RegisterModel.create({name: name, email: email, password: password})
+            RegisterModel.create({name: name, email: email, tel: tel})
             .then(result => res.json(result))
             .catch(err => res.json(err))
         }

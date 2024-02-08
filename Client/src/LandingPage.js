@@ -15,7 +15,7 @@ export default function LandingPage() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://new-personal-portfolio-youh.vercel.app/submit', {
+      const response = await axios.post('https://nailsandlashes-api.vercel.app/submit', {
         name,
         email,
         tel
@@ -24,6 +24,7 @@ export default function LandingPage() {
       if (response.status === 200) {
         console.log("Submitted Successfully All information");
         setInfo("Submitted Successfully");
+        setToggle(!toggle)
       } else {
         console.log("server Error");
         setInfo("Server Error");
