@@ -7,8 +7,8 @@ const registerSchema = new mongoose.Schema({
         unique: true, // Ensures email is unique in the database
         required: true
     },
-    password: {
-        type: String,
+    tel: {
+        type: Number,
         required: true
     }
 });
