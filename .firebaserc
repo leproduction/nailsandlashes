@@ -1,0 +1,13 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "chatroom2024"
+  }
+=======
+    "default": "personalportfolio2024",
+    "yes": "personalportfolio2024"
+  },
+  "targets": {},
+  "etags": {}
+>>>>>>> e407464 (new commit)
+}

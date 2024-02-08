@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7a2860f7.css",
+    "main.js": "./static/js/main.88710c01.js",
+    "static/js/787.681a8220.chunk.js": "./static/js/787.681a8220.chunk.js",
+    "static/media/emailPromotion.png": "./static/media/emailPromotion.df8c909bc68bc3c2476a.png",
+    "static/media/checkOutCart.png": "./static/media/checkOutCart.afce6e3be14b7e5f26ff.png",
+    "static/media/reviewPage.png": "./static/media/reviewPage.d1fa8bd9af5bc76fb630.png",
+    "index.html": "./index.html",
+    "main.7a2860f7.css.map": "./static/css/main.7a2860f7.css.map",
+    "main.88710c01.js.map": "./static/js/main.88710c01.js.map",
+    "787.681a8220.chunk.js.map": "./static/js/787.681a8220.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a2860f7.css",
+    "static/js/main.88710c01.js"
+  ]
+}
