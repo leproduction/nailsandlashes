@@ -15,7 +15,7 @@ export default function LandingPage() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://nailsandlashes-api.vercel.app/submit', {
+      const response = await axios.post('https://nailsandlashes-fh2w.vercel.app/submit', {
         name,
         email,
         tel
