@@ -24,7 +24,7 @@ export default function LandingPage() {
       if (response.status === 200) {
         console.log("Submitted Successfully All information");
         setInfo("Submitted Successfully");
-        setToggle(!toggle)
+   
       } else {
         console.log("server Error");
         setInfo("Server Error");
