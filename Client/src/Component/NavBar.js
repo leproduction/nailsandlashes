@@ -8,7 +8,7 @@ export default function NavBarComponent() {
     <div>
       <Navbar style={{ background: "rgba(189,195,199, 0.2)" }} expand="lg" className="shadow rounded w-100">
         <Container>
-          <Navbar.Brand href="#home" className="col-md-12">
+          <Navbar.Brand href="#home" className="col-md-12 d-flex justify-content-start">
             <Image
               src={Nails}
               alt="Nails and Lashes Logo"
