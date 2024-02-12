@@ -45,7 +45,7 @@ export default function LandingPage() {
   <br></br>
     <Row><h1>{info}</h1></Row>
       <Form onSubmit={handleSubmit} className=' p-4 rounded' variant="outline-dark mx-auton">
-        <Form.Label className='text-dark'>Feel free to leave your contact below. I will get back to you ASAP!</Form.Label>
+        <Form.Label className='text-dark'>Be the First to Know! Sign Up for Personalized Promotions.</Form.Label>
         <Form.Group controlId="formName">
           <Form.Control type="text" placeholder="Full Name" value={name} onChange={(e) => setName(e.target.value)} required />
         </Form.Group>
