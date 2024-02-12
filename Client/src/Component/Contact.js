@@ -19,7 +19,7 @@ export default function ContactEmer() {
             </Col>
             <Col><a className='text-decoration-none' href="https://maps.app.goo.gl/EcuSfFx2SZtQg3zr6"><p className='text-black'>{mycontact.address}</p></a>
             </Col>
-            <Col><a className='text-decoration-none' href="https://www.yelp.com/biz/nails-and-lashes-tamarac"><p className='text-dark'><i class="bi bi-yelp"></i></p></a>
+            <Col><a className='text-decoration-none' href="https://www.yelp.com/biz/nails-and-lashes-tamarac"><p className='text-dark'><i class="bi bi-yelp"></i>Yelp</p></a>
             </Col>
         </Row>))}
     </Container>
