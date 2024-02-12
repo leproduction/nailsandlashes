@@ -40,11 +40,9 @@ function Home() {
 
 
           </Row>
-     </Row>
-         <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2 shadow'>
+           <motion.div whileHover={{ scale: 1.5 }}> <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2'>
   <Button variant="outline-info" href="tel:9544404390" className='text-dark shadow'><i class="bi bi-telephone"></i></Button>
-</Row>
-
+</Row></motion.div>
       <Container fluid className="d-flex justify-content-center align-items-center flex-wrap my-2">
         <Row style={{ background: 'rgba(189,195,199, 0.3)' }} align="center" xs={1} md={4} className=" shadow rounded my-1 p-1 ">
           <Col className="mx-auto">
