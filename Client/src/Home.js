@@ -41,7 +41,7 @@ function Home() {
 
           </Row>
      </Row>
-         <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2'>
+         <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2 shadow'>
   <Button variant="outline-info" href="tel:9544404390" className='text-dark shadow'><i class="bi bi-telephone"></i></Button>
 </Row>
 
