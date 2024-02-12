@@ -47,20 +47,24 @@ function Home() {
           <motion.div whileHover={{ scale: 1.25 }}>
             <Card className='border border-light shadow p-1'>
 
-                <Card.Img  variant="top" src="https://images.pexels.com/photos/5128276/pexels-photo-5128276.jpeg?auto=compress&cs=tinysrgb&w=400" />{' '}
+                <Card.Img  variant="top" src="https://images.pexels.com/photos/5128276/pexels-photo-5128276.jpeg?auto=compress&cs=tinysrgb&w=400" alt='EyeLashes Waxing Tinting longer lashes Eyelash Extensions ' />{' '}
 
               <Card.Body>
-                <Card.Title>EyeLashes</Card.Title>
+                <Card.Title>EyeLashes & EyeBrows Services</Card.Title>
                 <Card.Text>
-                Choosing the right eyebrow services is crucial for achieving the desired shape, thickness, and overall look that complements your facial features. Eyebrows frame the face and can significantly impact your appearance, so it's important to select services and professionals that meet your needs and expectations
+               <ul> Choosing the right eyeylashes & eyebrow services is crucial for achieving the desired shape, thickness, and overall look that complements your facial features. Eyebrows frame the face and can significantly impact your appearance, so it's important to select services and professionals that meet your needs and expectations
                 Eyelash services have become increasingly popular in beauty and cosmetic treatments, offering individuals the chance to enhance the length, curl, volume, and overall appearance of their natural eyelashes. These services range from temporary solutions for special occasions to more durable treatments that provide everyday convenience. Below are some of the most common eyelash services:
-Waxing
+                </ul>
+<li>Waxing
 Best for: Quick shaping for those without sensitive skin.
 How it works: Warm wax is applied, and a strip is pressed on top. The strip is then quickly pulled off, removing hair from the root.
+</li>
+<li>
 Tinting
 Best for: Enhancing color, making eyebrows look fuller and more defined.
 How it works: Semi-permanent dye is applied to enhance, shape, and define brows.
-
+</li>
+<li>
 Eyelash Extensions
 Eyelash extensions involve attaching synthetic, silk, or mink fibers individually to each natural eyelash using a semi-permanent glue. This service is highly customizable, allowing clients to choose the length, curl, and sometimes even the color of the extensions. The result is fuller, longer lashes that can last for several weeks, with maintenance fills recommended every 1-4 weeks.
 
@@ -69,6 +73,7 @@ Pros:
 Immediate results with fuller, longer lashes
 Customizable to suit individual preferences
 Eliminates the need for mascara
+</li>
 </Card.Text>
               </Card.Body>
             </Card>
@@ -78,11 +83,12 @@ Eliminates the need for mascara
           <motion.div whileHover={{ scale: 1.25 }}>
             <Card  className='border border-light shadow p-1'>
 
-                <Card.Img  variant="top" src="https://images.pexels.com/photos/5178001/pexels-photo-5178001.jpeg?auto=compress&cs=tinysrgb&w=400" />
+                <Card.Img  variant="top" src="https://images.pexels.com/photos/5178001/pexels-photo-5178001.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Eyebrow tattoos cosmetic tattooing, microblading, microshading, or semi-permanent makeup" />
 
               <Card.Body>
                 <Card.Title>EyeBrows Tattoo</Card.Title>
                 <Card.Text className='my-2'>
+                  <ul>
 Eyebrow tattoos, often referred to as cosmetic tattooing, microblading, microshading, or semi-permanent makeup, involve the application of pigment into the skin's dermal layer to enhance, reshape, or create a more defined look for the eyebrows. This cosmetic procedure is sought by individuals looking to improve or simplify their beauty routines, those with sparse or light-colored eyebrows, or people wanting to correct asymmetries and define their eyebrow shape. Here's a brief overview of the different techniques:
 
 Microblading: This technique uses a manual tool with a row of several fine needles to create thin, hair-like strokes that mimic the appearance of natural eyebrow hairs. It's ideal for filling in sparse areas and creating a very natural-looking eyebrow.
@@ -92,13 +98,14 @@ Microshading or Powder Brows: Unlike microblading, which creates hair-like strok
 Ombre Brows: This method combines microshading techniques to create brows that are lighter at the front and gradually become darker towards the tail, creating an ombre effect. It's suitable for those who desire a more defined and dramatic look.
 
 Combination Brows: This approach mixes microblading and shading techniques to achieve a natural yet defined eyebrow. The hairs are microbladed at the front of the brow with shading done towards the middle and end, offering both definition and density.
-
+</ul>
+<li>
 Pros of Eyebrow Tattoos:
 
 Saves time on daily makeup routines.
 Waterproof and smudge-proof solution for enhancing eyebrows.
 Long-lasting, typically ranging from 1 to 3 years, depending on the specific technique, skin type, and lifestyle.
-Can improve eyebrow symmetry and provide a base for further makeup application if desired.</Card.Text>
+Can improve eyebrow symmetry and provide a base for further makeup application if desired.</li></Card.Text>
               </Card.Body>
             </Card>
             </motion.div>
@@ -109,23 +116,23 @@ Can improve eyebrow symmetry and provide a base for further makeup application i
           <motion.div whileHover={{ scale: 1.25 }}>
             <Card  className='border border-light shadow p-1'>
 
-                <Card.Img  variant="top" src="https://images.pexels.com/photos/17321619/pexels-photo-17321619/free-photo-of-a-woman-with-manicured-nails-and-flowers-on-her-hands.jpeg?auto=compress&cs=tinysrgb&w=400" />
+                <Card.Img  variant="top" src="https://images.pexels.com/photos/17321619/pexels-photo-17321619/free-photo-of-a-woman-with-manicured-nails-and-flowers-on-her-hands.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Nails Services Basic or Regular Manicure Gel Manicure Acrylic Manicure Dip Powder Manicure French Manicure Paraffin Manicure Luxury or Spa Manicure" />
 
               <Card.Body>
                 <Card.Title>Nails Services</Card.Title>
-                <Card.Text className='my-2'>Basic or Regular Manicure: Involves soaking the hands, shaping the nails, treating the cuticles, applying a hand lotion, and finishing with nail polish.
-
+                <Card.Text className='my-2'><li>Basic or Regular Manicure: Involves soaking the hands, shaping the nails, treating the cuticles, applying a hand lotion, and finishing with nail polish.
+                </li>
 Gel Manicure: Uses gel-based polish that is cured under a UV or LED lamp. It's known for its durability and glossy finish, lasting up to two weeks or more without chipping.
-
+<li>
 Acrylic Manicure: Involves applying a mixture of liquid acrylic and powder to the nails, creating a hard protective layer over the natural nails. Acrylics are versatile, allowing for lengthening short nails and shaping them to the desired silhouette.
 
-Dip Powder Manicure: A nail coloring technique where nails are dipped into colored powder (or the powder is applied to the nail) and then sealed with a clear protective polish. It's known for its longevity and does not require UV light to cure.
+</li><li>Dip Powder Manicure: A nail coloring technique where nails are dipped into colored powder (or the powder is applied to the nail) and then sealed with a clear protective polish. It's known for its longevity and does not require UV light to cure.
 
-French Manicure: Features a natural nail base with white tips, offering a classic, elegant look. Variations include the reverse French and colored French manicures.
+</li><li>French Manicure: Features a natural nail base with white tips, offering a classic, elegant look. Variations include the reverse French and colored French manicures.
 
-Paraffin Manicure: Involves dipping the hands in warm paraffin wax, which moisturizes and softens the skin. It's particularly beneficial for dry hands.
+</li><li>Paraffin Manicure: Involves dipping the hands in warm paraffin wax, which moisturizes and softens the skin. It's particularly beneficial for dry hands.
 
-Luxury or Spa Manicure: Includes additional treatments such as exfoliation, masks, or hot stone massage, providing a more pampering and relaxing experience.</Card.Text>
+</li><li>Luxury or Spa Manicure: Includes additional treatments such as exfoliation, masks, or hot stone massage, providing a more pampering and relaxing experience.</li></Card.Text>
               </Card.Body>
             </Card>
             </motion.div>
@@ -134,21 +141,21 @@ Luxury or Spa Manicure: Includes additional treatments such as exfoliation, mask
           <motion.div whileHover={{ scale: 1.25 }}>
             <Card  className='border border-light shadow p-1'>
 
-                <Card.Img variant="top" src="https://images.pexels.com/photos/8945996/pexels-photo-8945996.jpeg?auto=compress&cs=tinysrgb&w=400" />
+                <Card.Img variant="top" src="https://images.pexels.com/photos/8945996/pexels-photo-8945996.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Pedicure Treatment Soaking Cleaning and Clipping Cuticle Care Exfoliation Moisturizing Massage Nail Polish Spa Pedicure Gel Pedicure Paraffin Pedicure" />
 
               <Card.Body>
                 <Card.Title>Pedicure Treatment</Card.Title>
-                <Card.Text className='my-1'>Soaking: Your feet are soaked in warm, soapy water to soften the skin and nails.
-Cleaning and Clipping: After soaking, your nails are cleaned, clipped, and filed into shape.
-Cuticle Care: Cuticles are pushed back, and any excess is trimmed.
-Exfoliation: Dead skin cells on the bottom of your feet are scrubbed away using a pumice stone or foot scrub.
-Moisturizing: A moisturizer is applied to your feet and lower legs to hydrate your skin.
-Massage: Often, a foot and lower leg massage is included to relax the muscles and improve circulation.
-Nail Polish: Finally, nail polish is applied if desired. You can choose from a variety of colors or even go for nail art.
-Special Pedicures
+                <Card.Text className='my-1'><li>Soaking: Your feet are soaked in warm, soapy water to soften the skin and nails.
+                </li><li>Cleaning and Clipping: After soaking, your nails are cleaned, clipped, and filed into shape.
+                </li><li>Cuticle Care: Cuticles are pushed back, and any excess is trimmed.
+                </li><li>Exfoliation: Dead skin cells on the bottom of your feet are scrubbed away using a pumice stone or foot scrub.
+                </li><li>Moisturizing: A moisturizer is applied to your feet and lower legs to hydrate your skin.
+                </li><li>Massage: Often, a foot and lower leg massage is included to relax the muscles and improve circulation.
+                </li><li>Nail Polish: Finally, nail polish is applied if desired. You can choose from a variety of colors or even go for nail art.
+                </li><li>Special Pedicures
 Spa Pedicure: Includes additional treatments like masks, wraps, or aromatherapy.
 Gel Pedicure: Uses gel polish that is cured under a UV or LED lamp.
-Paraffin Pedicure: Involves dipping your feet into warm paraffin wax to deeply moisturize the skin.</Card.Text>
+Paraffin Pedicure: Involves dipping your feet into warm paraffin wax to deeply moisturize the skin.</li></Card.Text>
               </Card.Body>
             </Card>
             </motion.div>
