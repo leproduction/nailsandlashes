@@ -34,7 +34,7 @@ function Home() {
       </Row>
       <Row style={{ background: 'rgba(189,195,199, 0.3)' }} sm={1} md={1} className=" shadow mx-0 my-1 p-1 flex rounded gap-1">
 
-      <Button variant="outline-warning" href="https://maps.app.goo.gl/rKibsdCPce1ZVNE18" className='text-dark'>Direction</Button>
+      <Button variant="outline-warning" href="https://www.google.com/maps/dir//Nails+%26+Lashes+7740+W+Commercial+Blvd+Lauderhill,+FL+33351/@26.1933676,-80.2544226,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x49a6651293042c93:0x9ea7f08b018a7836!2m2!1d-80.2544226!2d26.1933676?entry=ttu" className='text-dark'>Direction</Button>
       <Button variant="outline-info" href="tel:9544404390" className='text-dark'>Book an Appointment</Button>
 
 
