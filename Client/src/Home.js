@@ -40,9 +40,12 @@ function Home() {
 
 
           </Row>
-           <motion.div whileHover={{ scale: 1.5 }}> <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2'>
+           <Row className='col-md-1 col-sm-1 p-1 d-flex position-fixed top-50 start-0 mx-2 gap-2'>
   <Button variant="outline-info" href="tel:9544404390" className='text-dark shadow'><i class="bi bi-telephone"></i></Button>
-</Row></motion.div>
+  <Button variant="outline-warning" href="https://maps.apple.com/?address=7740%20W%20Commercial%20Blvd,%20Tamarac,%20FL%2033351,%20United%20States&auid=17646163766110181493&ll=26.193356,-80.254414&lsp=9902&q=Nails%20%26%20Lashes" className='text-dark'><i class="bi bi-map"></i></Button>
+
+</Row>
+
       <Container fluid className="d-flex justify-content-center align-items-center flex-wrap my-2">
         <Row style={{ background: 'rgba(189,195,199, 0.3)' }} align="center" xs={1} md={4} className=" shadow rounded my-1 p-1 ">
           <Col className="mx-auto">
