@@ -5,14 +5,12 @@ import NavBarComponent from './Component/NavBar.js';
 import FooterPage from './Component/Footer.js';
 import ProgressiveBar from './Component/ProgressBar.js';
 import ContactEmer from './Component/Contact.js';
-import emailPromotionImage from './emailPromotion.png';
-import checkOutImage from './checkOutCart.png';
-import reviewImage from './reviewPage.png';
-import map from './map.png'
+
+
 import { motion } from 'framer-motion';
 import LandingPage from './LandingPage.js';
 import ReviewPage from './Component/Review.js';
-
+import Photos from './Component/NailsSearch.js';
 function Home() {
 
   return (
@@ -197,6 +195,7 @@ Paraffin Pedicure: Involves dipping your feet into warm paraffin wax to deeply m
       <Row className='col-md-12'><Col>Sunday	</Col><Col>11AM–4PM</Col></Row>
      </Row >
 </Container>
+  <Photos/>
 <ContactEmer />
        <FooterPage />
 
