@@ -172,12 +172,6 @@ Paraffin Pedicure: Involves dipping your feet into warm paraffin wax to deeply m
 
       <LandingPage/>
       <ReviewPage/>
-
-      <Container fluid className='p-2 shadow'>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14320.407068073067!2d-80.27193206044923!3d26.193367599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49a6651293042c93%3A0x9ea7f08b018a7836!2sNails%20%26%20Lashes!5e0!3m2!1sen!2sus!4v1707771241710!5m2!1sen!2sus" width="400" height="300" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</Container>
-
   <Photos/>
 <ContactEmer />
     <Container fluid className='p-2 shadow d-flex justify-content-center align-items-center text-center'>
@@ -197,6 +191,10 @@ Paraffin Pedicure: Involves dipping your feet into warm paraffin wax to deeply m
       <Row className='col-md-12'><Col>Saturday</Col>	<Col>10AM–7PM</Col></Row>
       <Row className='col-md-12'><Col>Sunday	</Col><Col>11AM–4PM</Col></Row>
      </Row >
+</Container>
+    <Container fluid className='p-2 shadow'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14320.407068073067!2d-80.27193206044923!3d26.193367599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49a6651293042c93%3A0x9ea7f08b018a7836!2sNails%20%26%20Lashes!5e0!3m2!1sen!2sus!4v1707771241710!5m2!1sen!2sus" width="400" height="300" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </Container>
        <FooterPage />
 
