@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import { Container, Card, Col, Image,Row } from 'react-bootstrap';
 
-const API_KEY = process.env.REACT_APP_PEXELS_API_KEY; // Assuming you're using Create React App, set your API key in the .env file as REACT_APP_PEXELS_API_KEY
+const API_KEY = 'n5IEeHjArbTdhkBz6tp8wdM4L6qACfdp6UZCQ1GxRQlQsvbZbzBVH8rk'; 
 const BASE_URL = 'https://api.pexels.com/v1';
 
 const pexelsClient = axios.create({
