@@ -34,7 +34,7 @@ function Home() {
       </Row>
       <Row style={{ background: 'rgba(189,195,199, 0.3)' }} sm={1} md={1} className=" shadow mx-0 my-1 p-1 flex rounded gap-1">
 
-      <Button variant="outline-warning" href="https://maps.app.goo.gl/iWkwMTwcG1okh4hv8?g_st=ig" className='text-dark'>Direction</Button>
+      <Button variant="outline-warning" href="https://maps.apple.com/?address=7740%20W%20Commercial%20Blvd,%20Tamarac,%20FL%2033351,%20United%20States&auid=17646163766110181493&ll=26.193356,-80.254414&lsp=9902&q=Nails%20%26%20Lashes" className='text-dark'>Direction</Button>
       <Button variant="outline-info" href="tel:9544404390" className='text-dark'>Book an Appointment</Button>
 
 
