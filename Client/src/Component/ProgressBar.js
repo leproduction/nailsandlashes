@@ -54,6 +54,7 @@ export default function ProgressiveBar() {
             {/* Corrected onClick handler to use a function that calls addToCart */}
             <Row className='p-1 col-md-1 col-md-1 mx-auto'>
               <Button variant="outline-light" className='text-dark' type="button" href='https://buy.stripe.com/fZe5nI5j17f22GYcMN' onClick={addToCart(products[0])}><i className="bi bi-piggy-bank-fill"></i></Button>
+              <Button variant="outline-light" className='text-dark' type="button" href='https://buy.stripe.com/fZe5nI5j17f22GYcMN'><i className="bi bi-piggy-bank-fill"></i></Button>
             </Row>
           </Row>
         </Form>
