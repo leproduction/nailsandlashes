@@ -9,9 +9,9 @@ const stripePromise = loadStripe('pk_test_12345'); // Use your Stripe publishabl
 export default function ProgressiveBar() {
   const products = [
     {
-      id: "price_1OaNxnEP2lKACqyoVaNrm6nd",
+      id: "price_1OkAKlEP2lKACqyooY9ARB8y",
       name: 'Donation',
-      price: '7.99',
+      price: '5.00',
       quantity: 1,
       src: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
     }
@@ -49,11 +49,11 @@ export default function ProgressiveBar() {
         {/* Corrected attribute name onSubmit */}
         <Form onSubmit={handleSubmit}>
           <Row align="center" className='mx-auto'>
-            <small><h5 className='text-dark text-center mx-0'>Not only your services that you are getting play important role in our charity wish list but also your small action leads to huge change in someone's life. We will donate 5% annual revenue to charity. Please help us achieve the goal.</h5></small>
+            <small><h5 className='text-dark text-center mx-0'>Not only do the services you receive play an important role in our charity campaign "GoiGiup," but your small actions also lead to huge changes in someone's life. Your actions mean a lot to others. Additionally, we will donate 5% of our annual revenue toward charity. Please help us achieve this goal</h5></small>
             <ProgressBar now={79} animated variant='secondary' />
             {/* Corrected onClick handler to use a function that calls addToCart */}
             <Row className='p-1 col-md-1 col-md-1 mx-auto'>
-              <Button variant="outline-light" className='text-dark' type="button" onClick={addToCart(products[0])}><i className="bi bi-piggy-bank-fill"></i></Button>
+              <Button variant="outline-light" className='text-dark' type="button" href='https://buy.stripe.com/fZe5nI5j17f22GYcMN' onClick={addToCart(products[0])}><i className="bi bi-piggy-bank-fill"></i></Button>
             </Row>
           </Row>
         </Form>
