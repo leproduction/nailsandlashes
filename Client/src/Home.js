@@ -11,6 +11,7 @@ import { motion } from 'framer-motion';
 import LandingPage from './LandingPage.js';
 import ReviewPage from './Component/Review.js';
 import Photos from './Component/NailsSearch.js';
+import PeopleCount from './Component/PeopleCount.js';
 function Home() {
 
   return (
@@ -43,7 +44,7 @@ function Home() {
   <Button variant="outline-warning" href="https://maps.apple.com/?address=7740%20W%20Commercial%20Blvd,%20Tamarac,%20FL%2033351,%20United%20States&auid=17646163766110181493&ll=26.193356,-80.254414&lsp=9902&q=Nails%20%26%20Lashes" className='text-dark'><i class="bi bi-map"></i></Button>
 
 </Row>
-
+<PeopleCount/>
       <Container fluid className="d-flex justify-content-center align-items-center flex-wrap my-2">
         <Row style={{ background: 'rgba(189,195,199, 0.3)' }} align="center" xs={1} md={4} className=" shadow rounded my-1 p-1 ">
           <Col className="mx-auto">
