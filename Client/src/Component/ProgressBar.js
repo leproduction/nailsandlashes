@@ -4,7 +4,7 @@ import { Row, ProgressBar, Container, Button, Form } from 'react-bootstrap';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js'; // Corrected import for loadStripe
 
-const stripePromise = loadStripe('pk_test_12345'); // Use your Stripe publishable key
+const stripePromise = loadStripe('pk_live_51OAeLXEP2lKACqyo1hvO7XyGRFWIw3lOAcoMdJB2ewHP6yryhhnj7GtkGgh0gCrLKuYUiHZQuzZJbLwJbY8nbogE00dEmKQorC'); // Use your Stripe publishable key
 
 export default function ProgressiveBar() {
   const products = [
