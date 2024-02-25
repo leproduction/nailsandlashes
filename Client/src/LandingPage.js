@@ -40,7 +40,7 @@ export default function LandingPage() {
 
   return (
     toggle?
-    <Container fluid className='p-1 text-dark position-absolute top-50 start-0 border border-dark mx-1'>    <Container className='mx-auto' style={{backgroundImage:`url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`}}>
+    <Container fluid className='p-1 text-dark position-absolute top-50 start-0 mx-1'>    <Container className='mx-auto' style={{backgroundImage:`url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`}}>
     <Button onClick={()=>setToggle(!toggle)} variant="outline-dark position-absolute top-0 start-0">X</Button>
   <br></br>
     <Row><h1>{info}</h1></Row>
